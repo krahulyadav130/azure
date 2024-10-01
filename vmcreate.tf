@@ -1,3 +1,4 @@
+# VM will deployed with using module /ProjectA/compute
 module "project-a-vm" {
     source = "./ProjectA/compute"
     rsg-name = module.project-a-rsg.rsgname
