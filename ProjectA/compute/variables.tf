@@ -1,11 +1,25 @@
-variable "rsg-name" {
-    type = string
-    description = "Value of the RSG Group name"
-  
-}
-variable "rsg-location" {
-    type = string
-    description = "Value of the RSG Group location"
-  
-}
 
+variable "rsg-name" {
+  
+}
+variable "location" {
+  
+}
+variable "subnetid" {
+  
+}
+variable "interfacename" {
+  
+}
+variable "vmname" {
+  
+}
+variable "vmsize" {
+  
+}
+variable "username" {
+  
+}
+variable "userpassword" {
+  
+}
