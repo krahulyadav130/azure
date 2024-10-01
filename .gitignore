@@ -3,4 +3,6 @@
 .terraform/*
 */.terraform/*
 auth.tf
-
+terraform.tfstate
+terraform.tfstate*
+*.tfstate*
