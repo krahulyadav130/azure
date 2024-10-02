@@ -1,3 +1,3 @@
-output "subnetids" {
-  value = azurerm_subnet.websubnet.id
+output "subnet-ids" {
+  value = azurerm_subnet.subnet-name.id
 }

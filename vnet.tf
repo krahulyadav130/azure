@@ -17,12 +17,7 @@ module "projecta-vnet" {
 
 }
 
-module "project-a-subnet" {
-    source = "./ProjectA/networking/subnet"
-    rsg-name = module.project-a-rsg.rsgname
-    vnetname = module.projecta-vnet.vnetname
-    subnetaddress = ["172.16.1.0/24"]
-    subnetname = "db-subnet"
-  
-}
+
+
+
 

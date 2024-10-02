@@ -23,3 +23,7 @@ variable "username" {
 variable "userpassword" {
   
 }
+# variable "ipname" {
+
+  
+# }
