@@ -13,3 +13,18 @@ module "project-a-vm" {
 
   
 }
+
+module "project-a-dbvm" {
+    source = "./ProjectA/compute"
+    rsg-name = module.project-a-rsg.rsgname
+    location = module.project-a-rsg.rsglocation
+    subnetid = module.websubnet.subnetids
+    interfacename = "project-a-dbvm-nic2"
+    vmname = "rahul-webapp-dbvm"
+    vmsize = "Standard_B1s"
+    username = "rahuladmin"
+    userpassword = "Qwertyuiop@123"
+
+
+  
+}
